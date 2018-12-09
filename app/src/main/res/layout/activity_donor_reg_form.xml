@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DonorRegForm">
+<ScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:text="Gender"
+        android:textSize="20dp" />
+
+    <RadioGroup
+        android:id="@+id/radiogroup1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <RadioButton
+            android:id="@+id/male"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:onClick="checkbutton"
+            android:text="Male" />
+
+        <RadioButton
+            android:id="@+id/female"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="checkbutton"
+            android:text="Female" />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="Blood Group"
+        android:textSize="20dp"/>
+
+    <RadioGroup
+        android:id="@+id/radiogroup2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <RadioButton
+            android:id="@+id/apos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:onClick="checkbutton"
+            android:text="A+" />
+
+        <RadioButton
+            android:id="@+id/aneg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="checkbutton"
+            android:text="A-" />
+
+        <RadioButton
+            android:id="@+id/bpos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="checkbutton"
+            android:text="B+" />
+
+        <RadioButton
+            android:id="@+id/bneg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="checkbutton"
+            android:text="B-" />
+
+        <RadioButton
+            android:id="@+id/abpos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="checkbutton"
+            android:text="AB+" />
+
+        <RadioButton
+            android:id="@+id/abneg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="checkbutton"
+            android:text="AB-" />
+
+        <RadioButton
+            android:id="@+id/opos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="checkbutton"
+            android:text="O+" />
+
+        <RadioButton
+            android:id="@+id/oneg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="checkbutton"
+            android:text="O-" />
+    </RadioGroup>
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="Date of Birth"
+        android:textSize="20dp"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText6"
+        android:ems="10"
+        android:hint="E-mail"
+        android:inputType="textEmailAddress"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="110dp"/>
+</ScrollView>
+</RelativeLayout>

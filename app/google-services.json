@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "72980269489",
+    "firebase_url": "https://dream-a272c.firebaseio.com",
+    "project_id": "dream-a272c",
+    "storage_bucket": "dream-a272c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:72980269489:android:b284b95e1aad561a",
+        "android_client_info": {
+          "package_name": "org.anms.dream"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "72980269489-0tcp3vsnrqrul3dcdf03ngsi7tga0glk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVI43NwXNXbWIUPI1gNygVwMnj4KSLE4w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
